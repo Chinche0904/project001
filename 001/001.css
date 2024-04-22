@@ -41,7 +41,9 @@ h3 {
 }
 
 blockquote {
-    background-color: gray;
+    position: absolute;
+    left: 5vw;
+    top: 40vw;
     font-size: 25px;
     position: absolute;
     bottom: 350px;
@@ -75,11 +77,14 @@ ul {
 }
 
 section {
-    background-color: antiquewhite;
+
     color: white;
     background-image: url(images/painting-mountain-lake-with-mountain-background_188544-9126.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 40vw;
+
 }
 
 
