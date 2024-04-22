@@ -1,26 +1,91 @@
-h3 {
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+* {
+    margin: 10px;
+    ;
 }
 
-p,
-blockquote {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 80px;
 }
 
-h1,
-h2,
-ul,
-li {
+header a {
+    font-size: 20px;
     color: white;
+    text-decoration: none;
+
 }
 
-header,
-footer,
-section {
+header a:hover {
+    text-decoration: underline;
+}
+
+header li {
+    display: inline;
+    scroll-margin-right: 4vw;
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 95px;
+}
+
+h3 {
+
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+blockquote {
+    background-color: gray;
+    font-size: 25px;
+    position: absolute;
+    bottom: 350px;
+    right: 40px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+    line-height: 80px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h2 {
+    font-size: 30px;
+}
+
+ul {
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.motto {
     background-color: pink;
 }
 
 section {
-    background-color: gray;
+    background-color: antiquewhite;
+    color: white;
+    background-image: url(images/painting-mountain-lake-with-mountain-background_188544-9126.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer {
+    background-color: pink;
+    border-radius: 10px;
+    background-size: cover;
+    width: 100%;
 }
