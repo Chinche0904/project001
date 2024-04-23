@@ -10,6 +10,10 @@ header {
     height: 80px;
 }
 
+.menu {
+    display: none;
+}
+
 header a {
     font-size: 20px;
     color: white;
@@ -33,28 +37,6 @@ header ul {
     line-height: 95px;
 }
 
-h3 {
-
-    font-size: 20px;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-blockquote {
-    position: absolute;
-    left: 5vw;
-    top: 40vw;
-    font-size: 25px;
-    position: absolute;
-    bottom: 350px;
-    right: 40px;
-}
-
-p {
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
 h1 {
     line-height: 80px;
     font-size: 30px;
@@ -66,9 +48,33 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+blockquote {
+    background-color: rgba(0, 139, 139, 0.666);
+    position: absolute;
+    left: 5vw;
+    top: 40vw;
+    font-size: 25px;
+    position: absolute;
+    bottom: 350px;
+    right: 40px;
+}
+
 ul {
     font-size: 20px;
     color: white;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -77,14 +83,12 @@ ul {
 }
 
 section {
-
     color: white;
     background-image: url(images/painting-mountain-lake-with-mountain-background_188544-9126.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 40vw;
-
 }
 
 
@@ -92,5 +96,42 @@ footer {
     background-color: pink;
     border-radius: 10px;
     background-size: cover;
+    position: absolute;
+    bottom: 3vw;
     width: 100%;
+}
+
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    header h1 {
+        left: 50%;
+        transform: rotateX('angle');
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 20px;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        border: none;
+    }
+
+    blockquote {
+        background-color: rgba(0, 139, 139, 0.666);
+        width: 260px;
+        height: 65px;
+        font-size: 20px;
+        line-height: 25px;
+
+
+    }
+
 }
