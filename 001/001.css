@@ -61,7 +61,6 @@ p {
 }
 
 blockquote {
-    background-color: rgba(0, 139, 139, 0.666);
     position: absolute;
     left: 5vw;
     top: 40vw;
@@ -125,13 +124,15 @@ footer {
     }
 
     blockquote {
-        background-color: rgba(0, 139, 139, 0.666);
-        width: 260px;
-        height: 65px;
         font-size: 20px;
         line-height: 25px;
 
 
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0px;
     }
 
 }
