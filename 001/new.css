@@ -1,5 +1,5 @@
 header {
-    background-color: gray;
+    background-color: black;
     height: 70px;
     width: 100%;
     border-radius: 6px;
@@ -7,7 +7,6 @@ header {
 }
 
 header a {
-    background-color: #949d9a;
     font-size: 20px;
     color: white;
     text-decoration: none;
@@ -24,6 +23,7 @@ header a:hover {
 }
 
 h1 {
+    color: white;
     position: absolute;
     left: 90px;
     top: 5px;
