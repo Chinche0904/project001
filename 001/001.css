@@ -104,7 +104,7 @@ img {
 .date {
     width: 400px;
     position: absolute;
-    right: 65px;
+    right: 60px;
     top: 400px;
 }
 
@@ -115,7 +115,11 @@ img {
 
 
 /* media queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
+    header {
+        width: 100%;
+    }
+
     header h1 {
         left: 50%;
         transform: rotateX('angle');
@@ -128,7 +132,7 @@ img {
     .menu {
         display: block;
         position: absolute;
-        top: 28px;
+        top: 20px;
         right: 20px;
         background-color: transparent;
         color: white;
@@ -137,12 +141,25 @@ img {
     }
 
     .date {
+        width: 370px;
         position: absolute;
         top: 570px;
+        left: 9px;
+
     }
 
-    footer {
-        position: absolute;
-        bottom: 0px;
+    .pic {
+        width: 100%;
     }
+
+    .text {
+        background-size: 200px;
+        width: 320px;
+    }
+
+    blockquote {
+        font-size: 20px;
+    }
+
+
 }
