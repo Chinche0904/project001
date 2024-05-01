@@ -25,7 +25,7 @@ a {
 }
 
 a {
-    color: #4d4ae8;
+    color: linear-gradient(90deg, #edc0bf 0, #c4caef 58%);
     text-decoration: none;
 }
 
