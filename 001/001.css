@@ -136,9 +136,9 @@ img {
         border: none;
     }
 
-    blockquote {
-        font-size: 20px;
-        line-height: 25px;
+    .date {
+        position: absolute;
+        top: 570px;
     }
 
     footer {
