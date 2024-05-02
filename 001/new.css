@@ -1,13 +1,19 @@
-header {
-    background-color: black;
-    height: 70px;
-    width: 100%;
-    border-radius: 6px;
+body {
+
+    padding: 4.5rem;
+    margin: 0;
+    background: #edc0bf;
+    background: linear-gradient(90deg, #edc0bf 0, #c4caef 58%);
+    font-family: 'Inter', sans-serif;
 
 }
 
+
+
 header a {
-    font-size: 20px;
+    background-color: linear-gradient(90deg, #edc0bf 0, #c4caef 58%);
+    padding: 2px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     border: 2px solid #949d9a;
@@ -25,7 +31,7 @@ header a:hover {
 h1 {
     color: white;
     position: absolute;
-    left: 90px;
-    top: 5px;
+    left: 110px;
+    top: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

@@ -8,10 +8,12 @@ body {
 }
 
 header {
+
     background: #edc0bf;
     background: linear-gradient(90deg, #0f2d6e 0, #c4caef 80%);
     width: 100%;
     height: 80px;
+    position: fixed;
 
 }
 
@@ -37,6 +39,7 @@ header ul {
     top: 0;
     line-height: 90px;
 }
+
 
 .menu {
     display: none;
@@ -114,6 +117,8 @@ img {
 
 
 
+
+
 /* media queries */
 @media screen and (max-width: 720px) {
     header {
@@ -160,6 +165,5 @@ img {
     blockquote {
         font-size: 20px;
     }
-
 
 }
