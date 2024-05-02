@@ -102,6 +102,7 @@ img {
     background: #cbbce3;
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(5px);
+    display: inline-block;
 }
 
 .date {
@@ -148,8 +149,11 @@ img {
     .date {
         width: 370px;
         position: absolute;
-        top: 570px;
-        left: 9px;
+        top: 500px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
 
     }
 
@@ -160,6 +164,10 @@ img {
     .text {
         background-size: 200px;
         width: 320px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
     }
 
     blockquote {
