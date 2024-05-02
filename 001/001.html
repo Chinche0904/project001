@@ -6,23 +6,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="001.css">
+    <!--<link rel="stylesheet" href="001.css">-->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Chinche0904</title>
 </head>
 
 <body>
     <header>
-        <div class="header">
-            <button class="menu">&#9776</button>
-            <h1>&nbsp;&nbsp;Chin</h1>
+        <div class="header flex flex-row justify-between">
+            <div><button class="menu block lg:hidden fixed top-0 right-2 m-2">&#9776</button>
+                <h1 class="text-5xl ">&nbsp;&nbsp;Chin</h1>
+            </div>
+
 
 
             <nav>
-                <ul class="header__nav">
-                    <li><a href="new.html">NEWS</a></li>
-                    <li><a href="like.html">LIKE</a></li>
-                    <li><a href="link.html">LINK</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
+                <ul class="hidden lg:flex flex-row">
+                    <li class="m-8"><a href="new.html">NEWS</a></li>
+                    <li class="m-8"><a href="like.html">LIKE</a></li>
+                    <li class="m-8"><a href="link.html">LINK</a></li>
+                    <li class="m-8"><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,10 +33,10 @@
     </header>
     <main>
         <section class="pic">
-            <img src="images/how-does-the-internet-work-hero1559004884280.jpg" alt="">
+            <img class="w-full" src="images/how-does-the-internet-work-hero1559004884280.jpg" alt="">
             <!--<blockquote>"My first website<br>&nbsp;&nbsp;&nbsp;&nbsp;made in college" </blockquote>-->
         </section>
-        <section class="text">
+        <section class="text bg-gradient-to-r from-purple-500 to-blue-300">
             <h3>
                 This is a static website
             </h3>
@@ -43,9 +46,11 @@
                 the future.
             </h4>
         </section>
-        <section class="date">
-            <img src="images/5-2024-a4-l-2-24-tw.png" alt="">
+        <section class="date flex flex-col">
+            <img class="w-52 h-52 m-auto" src="images/5-2024-a4-l-2-24-tw.png" alt="">
+            <p class="m-auto">12345</p>
         </section>
+
 
 
     </main>
