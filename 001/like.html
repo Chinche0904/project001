@@ -1,19 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en,zh-TW">
+
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="like.css">
-    <title>like</title>
-</head>
+    <!--<link rel="stylesheet" href="001.css">-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="001.js"></script>
+    <title>Chinche0904</title>
+    <style>
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #000000e0;
+            overflow: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
 
-<body>
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<!--bg-gradient-to-r from-[#edc0bf] to-blue-300-->
+
+<body class="bg-black">
     <header>
-        <a href="001.html">Home</a>
-        <h1>test</h1>
+        <div class="header fixed h-16 w-full flex flex-row justify-between bg-black">
+            <div>
+                <h1 class="text-3xl font-bold text-white m-3 lg:m-2.5">&nbsp;&nbsp;Chin</h1>
+            </div>
+
+            <div id="mySidenav" class="sidenav md:hidden">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li><a href="like.html">LIKE</a></li>
+                <li><a href="link.html">LINK</a></li>
+                <li><a href="new.html">NEWS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </div>
+
+            <span class="fixed top-3 right-5 text-white text-5xl md:hidden" style="font-size:30px;cursor:pointer"
+                onclick="openNav()">&#9776;</span>
+            <ul class="hidden md:flex flex-row text-xl fixed right-4 text-white">
+                <li class="m-6"><a href="like.html">LIKE</a></li>
+                <li class="m-6"><a href="link.html">LINK</a></li>
+                <li class="m-6"><a href="new.html">NEWS</a></li>
+                <li class="m-6"><a href="about.html">ABOUT</a></li>
+            </ul>
+
+
+        </div>
+
     </header>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <main>
+        <section class="h-16">
+            <p></p>
+        </section>
+        <section class="relative pic h-70">
+
+            <img class="w-full" src="images/wp7742014.jpg" alt="">
+            <blockquote class="origin-center absolute top-2/4 right-2/4 text-white text-7xl">Personal Web.
+            </blockquote>
+        </section>
+        <!--<section class="text bg-gradient-to-r from-purple-500 to-blue-300 h-56 ">
+            <h3 class="text-3xl text-white font-family: 'Inter', sans-serif">
+                This is a static website
+            </h3>
+            <h3><br></h3>
+            <h4 class="text-white text-xl">
+                "This webpage is used to practice the structure of some static webpages I will also try dynamic web in
+                the future.""
+            </h4>
+        </section>
+        <section class="date flex flex-col">
+            <img class="w-80 h-70 m-auto" src="images/5-2024-a4-l-2-24-tw.png" alt="">
+            <p class="m-auto">12345</p>
+        </section>-->
+
+
+
+    </main>
 </body>
 
 </html>
