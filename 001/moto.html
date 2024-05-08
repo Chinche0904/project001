@@ -57,8 +57,8 @@
     }
 </style>
 
-<body>
-    <div id="mySidenav" class="sidenav">
+<body class="bg-black">
+    <div id="mySidenav" class="sidenav z-10">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <li class="m-6"><a href="like.html">LIKE</a></li>
         <li class="m-6"><a href="link.html">LINK</a></li>
@@ -66,10 +66,10 @@
         <li class="m-6"><a href="001.html">HOME</a></li>
     </div>
 
-    <span class="fixed top-3 right-5  text-white text-5xl md:hidden" style="font-size:30px;cursor:pointer"
+    <span class="fixed top-3 right-5  text-white text-5xl md:hidden z-10" style="font-size:30px;cursor:pointer"
         onclick="openNav()">&#9776;</span>
 
-    <ul class="hidden md:flex flex-row text-xl fixed right-4 text-white">
+    <ul class="hidden md:flex flex-row text-xl fixed right-4 text-white z-10">
         <li class="m-6"><a href="like.html">LIKE</a></li>
         <li class="m-6"><a href="link.html">LINK</a></li>
         <li class="m-6"><a href="about.html">ABOUT</a></li>
@@ -85,15 +85,17 @@
             document.getElementById("mySidenav").style.width = "0";
         }
     </script>
-    <video autoplay loop muted playsinline>
-        <source src="video/CINEMATIC BMW S1000RR_4K QUALITY.mp4">
-    </video>
+    <div class="relative z-0">
+        <video autoplay loop muted playsinline>
+            <source src="video/CINEMATIC BMW S1000RR_4K QUALITY.mp4">
+        </video>
 
-    <h2 style="font-family: 'Jersey 25', sans-serif" class=" text-5xl translate-x-0 absolute left-8 bottom-12
-        leading-relaxed text-white"><em>Four wheels move the
-            body<br>
-            &nbsp;Two wheels move the soul.<em>
-    </h2>
+        <h2 style="font-family: 'Jersey 25', sans-serif" class="absolute text-xl translate-x-0 absolute left-8 bottom-12
+        leading-relaxed text-white md:text-3xl lg:text-5xl"><em>Four wheels move the
+                body<br>
+                &nbsp;Two wheels move the soul.<em>
+        </h2>
+    </div>
 
 
 </body>
