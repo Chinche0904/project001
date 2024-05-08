@@ -57,7 +57,7 @@
     }
 </style>
 
-<body class="bg-black">
+<body class="bg-black h-full">
     <div id="mySidenav" class="sidenav z-10">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <li class="m-6"><a href="like.html">LIKE</a></li>
@@ -86,9 +86,17 @@
         }
     </script>
     <div class="relative z-0">
-        <video autoplay loop muted playsinline>
-            <source src="video/CINEMATIC BMW S1000RR_4K QUALITY.mp4">
-        </video>
+        <div class="hidden lg:block">
+            <video autoplay loop muted playsinline>
+                <source src="video/CINEMATIC BMW S1000RR_4K QUALITY.mp4">
+            </video>
+        </div>
+        <div class="block lg:hidden">
+            <video autoplay loop muted playsinline>
+                <source src="video/CINEMATIC BMW S1000RR_4K QUALITY (1).mp4">
+            </video>
+        </div>
+
 
         <h2 style="font-family: 'Jersey 25', sans-serif" class="absolute text-xl translate-x-0 absolute left-4 bottom-2
         leading-relaxed text-white md:text-3xl lg:text-5xl"><em>Four wheels move the
