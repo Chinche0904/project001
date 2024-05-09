@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="moto.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>home</title>
+    <title>roadster</title>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
@@ -58,11 +58,11 @@
 </style>
 
 <body class="bg-black h-full">
-
+    <a href="moto.html"><img class="w-48 h-24 absolute top-0 left-4" src="images/kunArtboard-2-1.png" alt=""></a>
     <div id="mySidenav" class="sidenav z-10">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <li class="m-6"><a href="sport.html">SPORT</a></li>
-        <li class="m-6"><a href="roadster.html">ROADSTER</a></li>
+        <li class="m-6 font-bold"><a href="roadster.html">ROADSTER</a></li>
         <li class="m-6"><a href="adventure.html">ADVENTURE</a></li>
         <li class="m-6"><a href="tour.html">TOUR</a></li>
     </div>
@@ -72,7 +72,7 @@
 
     <ul class="hidden md:flex flex-row text-xl fixed right-4 text-white z-10">
         <li class="m-6"><a href="sport.html">SPORT</a></li>
-        <li class="m-6"><a href="roadster.html">ROADSTER</a></li>
+        <li class="m-6 font-bold"><a href="roadster.html">ROADSTER</a></li>
         <li class="m-6"><a href="adventure.html">ADVENTURE</a></li>
         <li class="m-6"><a href="tour.html">TOUR</a></li>
     </ul>
@@ -86,29 +86,3 @@
             document.getElementById("mySidenav").style.width = "0";
         }
     </script>
-    <div class="relative z-0">
-        <div class="hidden lg:block">
-            <video autoplay loop muted playsinline>
-                <source src="video/002.mp4">
-            </video>
-            <img class="w-48 h-24 absolute top-0 left-4" src="images/kunArtboard-2-1.png" alt="">
-            <h2 style="font-family: 'Jersey 25', sans-serif" class="absolute text-5xl translate-x-0 absolute left-4 bottom-4
-        leading-relaxed text-white"><em>Four wheels move the
-                    body<br>
-                    &nbsp;Two wheels move the soul.<em>
-            </h2>
-        </div>
-
-        <div class="block lg:hidden">
-            <img class="w-48 h-24 absolute top-0 left-4" src="images/kunArtboard-2-1.png" alt="">
-            <video autoplay loop muted playsinline>
-                <source src="video/000.mp4">
-            </video>
-        </div>
-    </div>
-
-
-</body>
-
-
-</html>
